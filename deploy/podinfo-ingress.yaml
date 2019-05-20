@@ -11,9 +11,14 @@ spec:
   rules:
   - http:
       paths:
-      - backend:
+      - path: /podinfo
+        backend:
           serviceName: podinfo
           servicePort: 9898
-        path: /podinfo
+
+      - path: /mighty-fine
+        backend:
+          serviceName: mighty-fine-fe
+          servicePort: 80
 status:
   loadBalancer: {}
