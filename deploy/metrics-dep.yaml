@@ -1,13 +1,13 @@
 apiVersion: apps/v1beta1 # for versions before 1.6.0 use extensions/v1beta1
 kind: Deployment
 metadata:
-  name: mighty-fine-fe
+  name: mighty-fine
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: mighty-fine-fe
+        app: mighty-fine
     spec:
       containers:
       - name: mighty-fine

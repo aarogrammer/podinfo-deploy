@@ -17,7 +17,7 @@ spec:
           servicePort: 9898
       - path: /mighty-fine
         backend:
-          serviceName: mighty-fine-fe
+          serviceName: mighty-fine
           servicePort: 80
 status:
   loadBalancer: {}
