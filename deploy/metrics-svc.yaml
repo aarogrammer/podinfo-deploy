@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: mighty-fine
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: mighty-fine
   ports:
