@@ -15,7 +15,6 @@ spec:
         backend:
           serviceName: podinfo
           servicePort: 9898
-
       - path: /mighty-fine
         backend:
           serviceName: mighty-fine-fe
